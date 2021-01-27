@@ -1,0 +1,32 @@
+HTTrack3.49-2 launched on Mon, 30 Nov 2020 14:37:05 at http://muneshwerstravel.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://muneshwerstravel.com/ -O "/home/arthur/websites/MT" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:37:07	Warning: 	Note: due to muneshwerstravel.com remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
+14:37:29	Warning: 	Unexpected socket error during pre-loop
+14:39:37	Error: 	"Not Found" (404) at link muneshwerstravel.com/flights/contact (from muneshwerstravel.com/flights/united-states)
+14:39:37	Error: 	"Not Found" (404) at link muneshwerstravel.com/content/contact (from muneshwerstravel.com/content/international-hotels)
+14:39:37	Error: 	"Not Found" (404) at link muneshwerstravel.com/node/contact (from muneshwerstravel.com/node/18)
+14:39:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): aff.bstatic.com/static/affiliate_base/js/flexiproduct.js
+14:40:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.iflychat.com/js/iflychat-v2.min.js?app_id=6e3d718c-824d-4749-bb33-ff71076c5c9e
+14:43:28	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/socket.io/socket.io.js (from muneshwerstravel.com/)
+14:43:30	Error: 	"Not Found" (404) at link muneshwerstravel.com/js/wow.min.js (from muneshwerstravel.com/)
+14:43:30	Warning: 	HTML file (28595 bytes) retransferred due to lack of cache: muneshwerstravel.com/flight
+14:43:43	Warning: 	Retry after error -5 (Unable to get server's address: Name or service not known) at link static.dohop.com/swl/js/iframe.js?wl=lowfares&wl_iframe_height=570px (from muneshwerstravel.com/)
+14:43:50	Warning: 	Unexpected socket error during pre-loop
+14:43:51	Warning: 	HTML file (28761 bytes) retransferred due to lack of cache: muneshwerstravel.com/node/18
+14:44:02	Error: 	"Not Found" (404) at link muneshwerstravel.com/flights/js/wow.min.js (from muneshwerstravel.com/flights/united-states)
+14:44:02	Error: 	"Not Found" (404) at link muneshwerstravel.com/content/js/wow.min.js (from muneshwerstravel.com/content/international-hotels)
+14:44:02	Error: 	"Not Found" (404) at link muneshwerstravel.com/node/js/wow.min.js (from muneshwerstravel.com/node/18)
+14:47:24	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/socket.io/socket.io.js (from muneshwerstravel.com/)
+14:47:24	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link static.dohop.com/swl/js/iframe.js?wl=lowfares&wl_iframe_height=570px (from muneshwerstravel.com/)
+14:47:24	Warning: 	Unexpected socket error during pre-loop
+14:47:25	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/socket.io/socket.io.js (from muneshwerstravel.com/)
+14:47:25	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link static.dohop.com/swl/js/iframe.js?wl=lowfares&wl_iframe_height=570px (from muneshwerstravel.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 20 seconds : 102 links scanned, 91 files written (10030685 bytes overall) [8736584 bytes received at 14091 bytes/sec], 2311921 bytes transferred using HTTP compression in 88 files, ratio 29%, 2.0 requests per connection
+(9 errors, 12 warnings, 0 messages)

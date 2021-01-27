@@ -1,0 +1,241 @@
+/*** Body - Ref: Main_Body.htm ------- begin ***/
+#id_Main
+{
+	padding-top: 5px;
+	width: 950px;
+}
+
+#id_TopNav
+{
+	/*
+	border-top: 1px solid #CCE6FC;
+	border-left: 1px solid #CCE6FC;
+	border-right: 1px solid #CCE6FC;
+	border-bottom: none;
+	
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;*/
+	text-align:center;
+	
+}
+
+
+#id_Content
+{
+	width: 950px;
+	/*padding: 10px;*/
+	text-align: center;
+	/*
+	border-top: none;
+	border-left: 1px solid #CCE6FC;
+	border-right: 1px solid #CCE6FC;
+	border-bottom: none;	
+	*/
+	border: none;
+}
+
+#id_Footer
+{
+	/*padding-top: 10px;*/
+	width: 950px;
+	text-align:center;
+	/*
+	border-top: none;
+	border-left: 1px solid #CCE6FC;
+	border-right: 1px solid #CCE6FC;
+	border-bottom: 1px solid #CCE6FC;	 
+	*/
+	border: none;
+
+}
+/*** Body - Ref: Main_Body.htm ------- end   ***/
+
+/*** Ref: Main_TopNav.htm ------- begin   ***/
+#id_HeaderNav
+{
+	width: 950px;
+	text-align: center;
+	border: 1px solid #ffffff;
+}
+
+#id_HeaderNav a
+{
+	
+}
+/*** Ref: Main_TopNav.htm ------- end     ***/
+
+/*** Ref: Main_Footer.htm ------- begin  ***/
+#id_FooterNav
+{
+	width: 950px;
+	height: 1%;
+}
+
+#Copyright .left td
+{
+	font-size: 9px;
+	color: #000000;
+}
+
+#Copyright .left a
+{
+	font-size: 9px;
+	color: #000000;
+}
+
+
+#FooterLink, #FooterLink a
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Tahoma, Sans-Serif;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	text-align:left
+}
+#FooterLink a:hover
+{
+	color:  #F90;
+	text-decoration: none;
+}
+
+
+
+/*** Ref: Main_Footer.htm ------- end     ***/
+
+#HeaderLink td, #HeaderLink a
+{
+    font-family: Verdana, Arial, Tahoma, Sans-Serif;
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#HeaderLink a:hover
+{
+	font-family: Verdana, Arial, Tahoma, Sans-Serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.ImgTopNav
+{
+    /*BACKGROUND: url(http://www.eeitravel.com/site/images/bg_sliver_2200x87.gif) repeat-x 0px -12px #ffffff;*/
+}
+
+.btncontinue
+{
+	text:shadow:0px;
+	background-image:none;
+	border-color:#03FF03;
+	background-color:#046204;
+	color:#fff;
+	font-weight:900;
+}
+
+.button1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:600;
+	/*border: 1px solid #8D92A9;*/
+	border: 1px solid #1F3098;
+	/*background-image: url(Pics/btnbg.gif);*/
+	color: #ffffff;/*#13490E;*/
+	background-color:#1F3098;/*#9CAFFB;*/
+}
+
+.shopform
+{
+	width:250px;
+	padding:2px 2px 2px 2px;
+	border: 2px solid #1F3098;
+	background-color:#9CAFFB;
+	background-image: url(Pics/shopform-bg.gif); 
+	background-repeat:repeat;
+ 
+}
+.shopform option:hover
+{
+	background-color:#9CAFFB;
+	outline:black solid 1px;
+	color:White;
+	font-weight:bold;
+	overflow:visible;
+}
+.servicegrouphotel
+{
+	background-color:#9CAFFB;
+}
+.trackflightbox
+{
+	/*background: url(Pics/searchtaboff.gif); */
+	color:#ffffff;
+	background-color:#1F3098;
+	padding-bottom:8px;
+	padding-top:4px;
+}
+.customersupportbox
+{
+	/*background: url(Pics/searchtaboff.gif); */
+	color:#1F3098;
+}
+.activetab
+{
+	background-color:transparent;/* old color #9CAFFB;*/
+	color:#394A21;
+	text-align:center;
+	font-size:14px;
+	font-weight:900;
+	line-height:26px;
+	height:26px;
+	border-bottom-color:#8AFA8A;
+	cursor:default;
+	
+}
+.inactivetab
+{
+	background-color:#8AFA8A;
+	background: url(Pics/searchtaboff.gif); 
+	background-repeat: repeat-x;
+	font-size:14px;
+	font-weight:900;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	line-height:26px;
+	height:26px;
+	cursor:hand;
+	border-right:1px solid #FFC09A;
+	border-bottom:1px solid #FFC09A;
+}
+.transtb
+{
+	FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana,Arial;
+	background-color: #9CAFFB;/*transparent;*/
+	border: 0px solid #000000;
+	padding: 0px 0px 0px 0px;
+	text-align: right;
+	
+}
+.transtb-la
+{
+	FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana,Arial;
+	background-color: transparent;
+	border: 0px solid #000000;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	width:100%;
+}
+.airprice
+{
+	border-left:0px;
+	color:Red;
+	font-weight:bold;
+}

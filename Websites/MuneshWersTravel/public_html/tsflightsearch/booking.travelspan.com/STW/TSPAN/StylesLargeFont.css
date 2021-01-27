@@ -1,0 +1,43 @@
+﻿/* Alternate Font Sizes */
+
+h1
+{
+	font-size: 25px;
+}
+.pkg-head-price
+{
+	font-size: 20px;
+}
+p, .content1 .itinhead, .content1 .itin-even, .content1 .itin-odd, .content1 #pricebox p, #plantabs .active, #plantabs li, #plantabs ul li a, #plantabs ul li a:hover, #highlights .pkglist, #box-yellow .title, .box-blue .title, .box-blue .box .active, .box-blue .box .text2, #pricebox .title, #pricebox .title2, #pricebox .year
+{
+	font-size: 14px;
+}
+.smtext, .pkg-head-smtext, .pkg-caption, .boxpopup-content, .pkg-row, .pkg-row2, .pkg-row3, .titlebar-red3, .content1, #pkgbar, #box-yellow .text, .box-blue .text, #pricebox .date, #pricebox .price
+{
+	font-size: 12px;
+}
+.pkg-title
+{
+	font-size: 13px;
+}
+
+
+
+#SCFontPlusBtn
+{
+	cursor: default;
+}
+#SCFontMinusBtn
+{
+	cursor: pointer;
+}
+
+#SCFontPlusBtn .IncreaseFont, #SCFontMinusBtn .IncreaseFont
+{
+	display: none;
+}
+
+#SCFontPlusBtn .DecreaseFont, #SCFontMinusBtn .DecreaseFont
+{
+	display: block;
+}
